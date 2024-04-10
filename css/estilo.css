@@ -1,0 +1,237 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.nav1{
+	width: 100%;
+	height: 100px;
+	background-color: skyblue;
+	overflow: hidden;
+	font-size: 30px;
+}
+
+ul{
+	list-style: none;
+	text-align: center;
+	color: black;
+	display: flex;
+	margin-top: 2%;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+}
+
+.fondo{
+	width: 100%;
+	height: 1150px;
+	background-color: beige;
+}
+
+.fondo_Principal{
+	width: 100%;
+	height: 700px;
+	background-color: beige;
+}
+
+.fondo_portafolio{
+	width: 100%;
+	height: 450px;
+	background-color: beige;
+}
+
+.fondo_Contacto{
+	width: 100%;
+	height: 710px;
+	background-color: beige;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+
+.imge img{
+	width: 11%;
+ 	margin-left: 43%;
+ 	border-radius: 10px;
+ 	padding: 10px;
+ 	border-radius: 50px;
+ 	transition: transform 0.5s ease;
+
+}
+
+.imge img:hover{
+	transform: scale(1.3);
+}
+
+.info_mia{
+	width: 30%;
+	height: 300px;
+	
+	padding: 30px;
+}
+
+.info_mia p{
+	justify-content: center;
+	font-size: 1.2em;
+	font-family: arial-black;
+	margin-top: 20%;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background-color: skyblue;
+	font-family: tahoma;
+	font-size: 15px;
+}
+
+
+
+button{
+	float: right;
+	margin-top: -50px;
+	margin-right:37%;
+	font-size: 1.5em;
+
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: green;
+	color:white;
+	box-shadow: 10px 10px 10px green;
+}
+
+
+
+
+.footer_SobreMI{
+	width: 100%;
+	height: 100px;
+	background-color: skyblue;
+}
+
+.tarjeta_formacion{
+	width: 30%;
+	height: 300px;
+	background-color: blue;
+	border-radius: 10px;
+	color: white;
+}
+
+.tarjeta_formacion-2{
+	width: 90%;
+	height: 350px;
+	background-color: blue;
+	border-radius: 10px;
+	color: white;
+}
+
+.fotosproycetos{
+	width: 7%;
+	height: 200px;
+	border-radius: 20px;
+	background-color: blue;
+
+}
+
+.tarjeta_formacion h3{
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+.tarjetaContacto{
+	width: 40%;
+	height: 600px;
+	background-color: blue;
+	border-radius: 10px;
+}
+
+.list ul li{
+list-style-type: none;
+color: white;
+padding: 10px;
+}
+
+.list li{
+	margin-top: 50px;
+}
+
+input{
+	width: 40%;
+	height: 60px;
+}
+
+textarea{
+	width: 80%;
+	height: 200px;
+}
+
+i{
+	display: flex;
+	padding: 10px;
+	margin-top: 3%;
+}
+
+.footer_index{
+	width: 100%;
+	height: 100px;
+	background-color: skyblue;
+	font-family: tahoma;
+	font-size: 15px;
+}
+
+@media(max-width:400px){
+
+	.tarjetaContacto{
+		width: 90%;
+	}
+
+	.tarjeta_formacion{
+		width: 90%;
+	}
+
+	ul{
+		flex-direction: column;
+	}
+
+	.nav1{
+		font-size: 18px;
+		height: 120px;
+	}
+
+	button{
+		margin-top: -10%;
+		float: left;
+		margin-left: 37%;
+		width: 120px;
+	}
+
+	.tarjeta_formacion h3{
+		width: 90%;
+	}
+
+	.info_mia{
+		width: 90%;
+	}
+
+	.fotosproycetos{
+		flex-direction: column;
+		display: flex;
+	}
+
+	.tarjeta_formacion-2{
+		flex-direction: column;
+		display: flex;
+	}
+
+	.footer_index{
+		margin-top: 20%;
+	}
+}
+
